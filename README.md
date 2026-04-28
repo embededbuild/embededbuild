@@ -35,7 +35,7 @@ Each device is a tool for learning, testing, and understanding wireless security
 |--------|-------|--------|
 | *GlitchRF: [TBD]* | [terminal base tool that allow you to control the device] | Planning |
 | *BLE Ducky* | [Bluetooth HID with connectablitiy] | in progress |
-| *More to come...* | evil-twin, BLE-twin, and many more | — |
+| *More to come...* | evil-twin, BLE-twin, and many more | in the future |
 
 > *(I'll fill these in as development progresses — follow the repo or watch this space.)*
 
