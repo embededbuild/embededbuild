@@ -1,16 +1,66 @@
-## Hi there 👋
+# ⚡ embededbuild
 
-<!--
-**embededbuild/embededbuild** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I design and build **open-source hacking devices** using ESP32, Raspberry Pi, and embedded systems.  
+Each device is a tool for learning, testing, and understanding wireless security — built from scratch, documented openly, and shared for free.
 
-Here are some ideas to get you started:
+**Tank** is my first release. More devices are on the way.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🧪 Current Device: Tank
+
+[![Repo](https://img.shields.io/badge/GitHub-Tank-181717?logo=github)](https://github.com/embededbuild/Tank)
+
+> A Flipper Zero–inspired portable hacking toolkit — WiFi scanning, BLE tracker detection, 2.4GHz RF capture/replay, and wireless BLE Rubber Ducky, all on an ESP32.
+
+**Capabilities:**
+
+| Feature | What it does |
+|---------|---------------|
+| WiFi | Scan networks, connect, save to SD |
+| BLE Scanner | Discover devices, detect AirTags/Tile/SmartTags |
+| RF24 / 2.4GHz | Spectrum scan, capture, replay via nRF24L01+ |
+| Pico Commander | Wireless HID payloads (BLE Rubber Ducky) to Pico W |
+| SD Card | Store scans + DuckyScript payloads |
+
+🔧 **Hardware:** ESP32 + SSD1306 OLED + nRF24L01+ + Pico W + MicroSD
+
+📂 **[Explore Tank on GitHub →](https://github.com/embededbuild/Tank)**
+
+---
+
+## 🔜 Upcoming Devices
+
+| Device | Focus | Status |
+|--------|-------|--------|
+| *GlitchRF: [TBD]* | [terminal base tool that allow you to control the device] | Planning |
+| *BLE Ducky* | [e.g., Bluetooth HID with connectablitiy] | in progress |
+| *More to come...* | — | — |
+
+> *(I'll fill these in as development progresses — follow the repo or watch this space.)*
+
+---
+
+## 🧠 My Approach
+
+- **Open source first** — schematics, code, and build guides for everything
+- **Embedded from the ground up** — ESP32, RP2040, and whatever else gets the job done
+- **Built for learning/cheaper solution to overprice devices**
+
+---
+
+## 📡 Let's Connect
+
+- GitHub: [@embededbuild](https://github.com/embededbuild)
+- Open an issue on **Tank** for questions or ideas
+
+---
+
+## ⚡ One More Thing
+
+I didn't buy a Flipper Zero. I built Tank instead.  
+Now I'm just getting started.
+
+---
+
+> 🛡️ **Disclaimer:** All devices here are for **educational and authorized security research only**.
