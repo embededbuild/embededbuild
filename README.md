@@ -20,10 +20,10 @@ Each device is a tool for learning, testing, and understanding wireless security
 | WiFi | Scan networks, connect, save to SD |
 | BLE Scanner | Discover devices, detect AirTags/Tile/SmartTags |
 | RF24 / 2.4GHz | Spectrum scan, capture, replay via nRF24L01+ |
-| Pico Commander | Wireless HID payloads (BLE Rubber Ducky) to Pico W |
+| Pico Commander | Wireless HID payloads (BLE Rubber Ducky) to Pico  |
 | SD Card | Store scans + DuckyScript payloads |
 
-🔧 **Hardware:** ESP32 + SSD1306 OLED + nRF24L01+ + Pico W + MicroSD
+🔧 **Hardware:** ESP32 + SSD1306 OLED + nRF24L01+ + Pico  + MicroSD
 
 📂 **[Explore Tank on GitHub →](https://github.com/embededbuild/Tank)**
 
@@ -35,7 +35,8 @@ Each device is a tool for learning, testing, and understanding wireless security
 |--------|-------|--------|
 | *GlitchRF*  | [terminal base tool that allow you to control the device] | completed |
 | *BLE Ducky* | [Bluetooth HID with connectablitiy] | in progress |
-| *More to come...* | evil-twin, BLE-twin, and many more | in the future |
+| *BLE Twin*  | [a bluetooth low energy evil twin]  | code does compile but have not field tested it|
+| *More to come...* | evil-twin, and many more | in the future |
 
 > *(I'll fill these in as development progresses — follow the repo or watch this space.)*
 
