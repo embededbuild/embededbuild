@@ -7,11 +7,9 @@ Each device is a tool for learning, testing, and understanding wireless security
 
 ---
 
-## 🧪 Current Device: Tank
+## 🧪 Device made: Tank_v7
 
 [![Repo](https://img.shields.io/badge/GitHub-Tank-181717?logo=github)](https://github.com/embededbuild/Tank)
-
-> A Flipper Zero–inspired portable hacking toolkit — WiFi scanning, BLE tracker detection, 2.4GHz RF capture/replay, and wireless BLE Rubber Ducky, all on an ESP32.
 
 **Capabilities:**
 
@@ -24,8 +22,6 @@ Each device is a tool for learning, testing, and understanding wireless security
 | SD Card | Store scans + DuckyScript payloads |
 
 🔧 **Hardware:** ESP32 + SSD1306 OLED + nRF24L01+ + Pico  + MicroSD
-
-📂 **[Explore Tank on GitHub →](https://github.com/embededbuild/Tank)**
 
 ---
 
@@ -53,7 +49,7 @@ Each device is a tool for learning, testing, and understanding wireless security
 ## 📡 Let's Connect
 
 - GitHub: [@embededbuild](https://github.com/embededbuild)
-- Open an issue on **Tank** for questions or ideas
+- Instagram: [https://www.instagram.com/embeddedbuild]
 
 ---
 
