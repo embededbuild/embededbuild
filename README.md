@@ -18,10 +18,10 @@ Each device is a tool for learning, testing, and understanding wireless security
 | WiFi | Scan networks, connect, save to SD |
 | BLE Scanner | Discover devices, detect AirTags/Tile/SmartTags |
 | RF24 / 2.4GHz | Spectrum scan, capture, replay via nRF24L01+ |
-| Pico Commander | Wireless HID payloads (BLE Rubber Ducky) to Pico  |
-| SD Card | Store scans + DuckyScript payloads |
+| Device Spoof | Spoof the device IP and MAC  |
+| SD Card | Store scans |
 
-🔧 **Hardware:** ESP32 + SSD1306 OLED + nRF24L01+ + Pico  + MicroSD
+🔧 **Hardware:** ESP32 + SSD1306 OLED + nRF24L01+ + MicroSD
 
 ---
 
