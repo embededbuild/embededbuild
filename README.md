@@ -33,9 +33,9 @@ Each device is a tool for learning, testing, and understanding wireless security
 
 | Device | Focus | Status |
 |--------|-------|--------|
-| *GlitchRF*  | [terminal base tool that allow you to control the device] | completed |
-| *BLE Ducky* | [Bluetooth HID with connectablitiy] | in progress |
-| *BLE Twin*  | [a bluetooth low energy evil twin]  | code does compile but have not field tested it|
+| *GlitchRF*  | terminal base tool that allow you to control the device | completed |
+| *BLE Ducky* | Bluetooth HID with connectablitiy | in progress |
+| *BLE Twin*  | a bluetooth low energy evil twin  | code does compile but have not field tested it|
 | *More to come...* | evil-twin, and many more | in the future |
 
 > *(I'll fill these in as development progresses — follow the repo or watch this space.)*
