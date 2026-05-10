@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/embededbuild-logo.png" alt="embededbuild logo" />
+  <img src="assets/embededbuild_glitch_logo.png" alt="embededbuild logo" />
 </div>
 
 `// you're not supposed to be here. keep going.`
