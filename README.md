@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/logo.svg" alt="embededbuild logo"/>
+  <img src="https://cdn.jsdelivr.net/gh/embededbuild/embededbuild@main/assets/logo.svg"/>
 </div>
 
 `// you're not supposed to be here. keep going.`
