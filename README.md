@@ -1,63 +1,87 @@
-# ⚡ embededbuild
+<div align="center">
+  <img src="assets/logo.svg" alt="embededbuild logo"/>
+</div>
 
-I design and build **open-source hacking devices** using ESP32, Raspberry Pi, and embedded systems.  
-Each device is a tool for learning, testing, and understanding wireless security — built from scratch, documented openly, and shared for free.
+`// you're not supposed to be here. keep going.`
 
-**Tank** is my first release. More devices are on the way.
-
----
-
-## 🧪 Device made: Tank_v7
-
-[![Repo](https://img.shields.io/badge/GitHub-Tank-181717?logo=github)](https://github.com/embededbuild/Tank)
-
-**Capabilities:**
-
-| Feature | What it does |
-|---------|---------------|
-| WiFi | Scan networks, connect, save to SD |
-| BLE Scanner | Discover devices, detect AirTags/Tile/SmartTags |
-| RF24 / 2.4GHz | Spectrum scan, capture, replay via nRF24L01+ |
-| Device Spoof | Spoof the device IP and MAC  |
-| SD Card | Store scans |
-
-🔧 **Hardware:** ESP32 + SSD1306 OLED + nRF24L01+ + MicroSD
+</div>
 
 ---
 
-## 🔜 Upcoming Devices
+## whoami
 
-| Device | Focus | Status |
-|--------|-------|--------|
-| *GlitchRF*  | terminal base tool that allow you to control the device | completed |
-| *BLE Ducky* | Bluetooth HID with connectablitiy | in progress |
-| *BLE Twin*  | a bluetooth low energy evil twin  | code does compile but have not field tested it|
-| *More to come...* | evil-twin, and many more | in the future |
+i build wireless security hardware. open source. no paywalls.  
+ESP32, nRF24, BLE — cheap chips doing things expensive products won't admit they can do.
 
-> *(I'll fill these in as development progresses — follow the repo or watch this space.)*
+every device starts the same way:  
+*what does this signal know that you don't?*
 
 ---
 
-## 🧠 My Approach
+## /devices
 
-- **Open source first** — schematics, code, and build guides for everything
-- **Embedded from the ground up** — ESP32, RP2040, and whatever else gets the job done
-- **Built for learning/cheaper solution to overprice devices**
+| codename | what it is | repo |
+|----------|-----------|------|
+| **Tank** | ESP32 doing flipper zero things. WiFi scanning, BLE, RF24, probe sniffing, MAC spoofing. built from scratch because buying one felt like giving up. | [![](https://img.shields.io/badge/-Tank-111111?logo=github&logoColor=white&labelColor=9900d1)](https://github.com/embededbuild/Tank) |
+| **GlitchRF** | RF dongle. terminal controlled. does more than it should. | [![](https://img.shields.io/badge/-GlitchRF-111111?logo=github&logoColor=white&labelColor=00c0d1)](https://github.com/embededbuild/GlitchRF) |
 
----
-
-## 📡 Let's Connect
-
-- GitHub: [@embededbuild](https://github.com/embededbuild)
-- Instagram: [https://www.instagram.com/embeddedbuild]
+> *devices get added when they leave the bench and survive field testing*
 
 ---
 
-## ⚡ One More Thing
+## /tank --capabilities
 
-I didn't buy a Flipper Zero. I built Tank instead.  
-Now I'm just getting started.
+```
+[*] WiFi        — scan all networks or open-only, log to SD
+[*] BLE         — enumerate devices, flag AirTags / Tile / SmartTags
+[*] RF24        — spectrum scan, packet capture, replay via nRF24L01+
+[*] Probe sniff — passive 802.11 probe capture with channel hopping
+[*] Spoof       — MAC and IP, saved profiles, persistent across boots
+[*] SD logging  — everything gets written. nothing gets forgotten.
+```
+
+`hardware` — ESP32 · SSD1306 OLED · nRF24L01+ · MicroSD
 
 ---
 
-> 🛡️ **Disclaimer:** All devices here are for **educational and authorized security research only**.
+## /pipeline
+
+```
+[DONE]        GlitchRF   — terminal RF dongle
+[IN PROGRESS] BLE Ducky  — Bluetooth HID, type without touching a keyboard
+[TESTING]     BLE Twin   — BLE evil twin, compiles, not field tested yet
+[UNKNOWN]     ???        — more signals. more problems. when it's ready.
+```
+
+---
+
+## /method
+
+- ship the schematics. ship the firmware. ship the docs. no exceptions.
+- ESP32 and RP2040 — not because it's easy, because it's honest about what it costs
+- security tools shouldn't require a $200 purchase to understand what's around you
+
+---
+
+## /contact
+
+```
+github    → github.com/embededbuild
+instagram → instagram.com/embeddedbuild
+```
+
+---
+
+## /exit
+
+didn't buy a Flipper Zero.  
+built Tank instead.  
+that was just the first commit.
+
+```
+> connection closed by remote host.
+```
+
+---
+
+<sub>all hardware is for authorized security research and educational use only. you own what you do with it.</sub>
