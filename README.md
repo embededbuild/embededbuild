@@ -24,23 +24,9 @@ every device starts the same way:
 |----------|-----------|------|
 | **Tank** | ⚡ Fully functional embedded systems prototype. ESP32 doing flipper zero things. WiFi scanning, BLE, RF24, probe sniffing, MAC spoofing. built from scratch because buying one felt like giving up. | [![](https://img.shields.io/badge/-Tank-111111?logo=github&logoColor=white&labelColor=9900d1)](https://github.com/embededbuild/Tank) |
 | **GlitchRF** | RF dongle. terminal controlled. does more than it should. | [![](https://img.shields.io/badge/-GlitchRF-111111?logo=github&logoColor=white&labelColor=00c0d1)](https://github.com/embededbuild/GlitchRF) |
-
+| **BLE-Twin** | a BLE version of a evil twin | [![](https://img.shields.io/badge/-BLE--TWIN-111111?logo=github&logoColor=white&labelColor=00c0d1)](https://github.com/embededbuild/BLE-TWIN)
+| **Mona-Lisa** | a esp32 device that can do WiFi/BLE base attacks and also have the ability to READ/WRITE to card/tags with the RFID capabilities | [![](https://img.shields.io/badge/-Mona--Lisa-111111?logo=github&logoColor=white&labelColor=00c0d1)](https://github.com/embededbuild/Mona-Lisa)
 > *devices get added when they leave the bench and survive field testing*
-
----
-
-## /tank --capabilities
-
-```
-[*] WiFi        — scan all networks or open-only, log to SD
-[*] BLE         — enumerate devices, flag AirTags / Tile / SmartTags
-[*] RF24        — spectrum scan, packet capture, replay via nRF24L01+
-[*] Probe sniff — passive 802.11 probe capture with channel hopping
-[*] Spoof       — MAC and IP, saved profiles, persistent across boots
-[*] SD logging  — everything gets written. nothing gets forgotten.
-```
-
-`hardware` — ESP32 · SSD1306 OLED · nRF24L01+ · MicroSD
 
 ---
 
@@ -50,7 +36,8 @@ every device starts the same way:
 [DONE]        GlitchRF   — terminal RF dongle
 [IN PROGRESS] BLE Ducky  — Bluetooth HID, type without touching a keyboard
 [TESTING]     BLE Twin   — BLE evil twin, compiles, not field tested yet
-[UNKNOWN]     ???        — more signals. more problems. when it's ready.
+[DONE]        Tank       — A device use for security audits
+[IN PROGRESS] Mona-Lisa  — Pocket WiFi/BLE tool with RFID capabilities 
 ```
 
 ---
