@@ -23,7 +23,8 @@ every device starts the same way:
 | codename | what it is | repo |
 |----------|-----------|------|
 | **Tank** | ⚡ Fully functional embedded systems prototype. ESP32 doing flipper zero things. WiFi scanning, BLE, RF24, probe sniffing, MAC spoofing. built from scratch because buying one felt like giving up. | [![](https://img.shields.io/badge/-Tank-111111?logo=github&logoColor=white&labelColor=9900d1)](https://github.com/embededbuild/Tank) |
-| **GlitchRF** | RF dongle. terminal controlled. does more than it should. | [![](https://img.shields.io/badge/-GlitchRF-111111?logo=github&logoColor=white&labelColor=00c0d1)](https://github.com/embededbuild/GlitchRF) |
+| **GlitchRF** | RF dongle. terminal controlled. does more than it should. | [![](https://img.shields.io/badge/-GlitchRF-111111?logo=github&logoColor=white&labelColor=9900d1)](https://github.com/embededbuild/GlitchRF) |
+| **corn_sniff** | a esp32 tool that sits and monitor the nework for devices IP/MAC/hostname. | [![](https://img.shields.io/badge/-corn_sniff-111111?logo=github&logoColor=white&labelColor=00c0d1)](https://github.com/embededbuild/corn_sniff)
 | **BLE-Twin** | a BLE version of a evil twin | [![](https://img.shields.io/badge/-BLE--TWIN-111111?logo=github&logoColor=white&labelColor=00c0d1)](https://github.com/embededbuild/BLE-TWIN)
 | **Mona-Lisa** | a esp32 device that can do WiFi/BLE base attacks and also have the ability to READ/WRITE to card/tags with the RFID capabilities | [![](https://img.shields.io/badge/-Mona--Lisa-111111?logo=github&logoColor=white&labelColor=00c0d1)](https://github.com/embededbuild/Mona-Lisa)
 > *devices get added when they leave the bench and survive field testing*
@@ -34,10 +35,11 @@ every device starts the same way:
 
 ```
 [DONE]        GlitchRF   — terminal RF dongle
-[IN PROGRESS] BLE Ducky  — Bluetooth HID, type without touching a keyboard
+[In Planning] BLE Ducky  — Bluetooth HID, type without touching a keyboard
 [TESTING]     BLE Twin   — BLE evil twin, compiles, not field tested yet
 [DONE]        Tank       — A device use for security audits
-[IN PROGRESS] Mona-Lisa  — Pocket WiFi/BLE tool with RFID capabilities 
+[IN Progress] corn_sniff — Corn_sniff is a network esp32 tool
+[IN Planning] Mona-Lisa  — Pocket WiFi/BLE tool with RFID capabilities 
 ```
 
 ---
