@@ -39,6 +39,7 @@ every device starts the same way:
 [DONE]            GlitchRF   — terminal RF dongle
 [In Planning]     BLE Ducky  — Bluetooth HID, type without touching a keyboard
 [TESTING]         BLE Twin   — BLE evil twin, compiles, not field tested yet
+[DONE]            Black_Void — built off the two repos Tank & CornTenna
 [DONE]            Tank       — A device use for security audits
 [DONE]            CORNTENNA  — CORNTENNA is a network recon esp32 tool
 [IN DESIGN PHASE] Mona-Lisa  — Pocket WiFi/BLE tool with RFID capabilities 
